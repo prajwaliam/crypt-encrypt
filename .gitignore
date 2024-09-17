@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Dependency directories
+.pnp
+.pnp.js
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package-lock
+package-lock.json
+
+# Yarn lock file (if using Yarn)
+yarn.lock
+
+# Test coverage
+coverage/
+
+# Local environment configuration
+*.local
+
+# Other files
+*.tmp
+*.swp
+*.swo
+
+# Terraform-specific files
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+modules/
+
+# State lock files
+*.terraform.lock.hcl
+
+# Plan and output files
+*.tfplan
+*.tfout
+
+# Temporary files
+*.tmp
+*.swp
