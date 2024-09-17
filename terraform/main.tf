@@ -1,11 +1,11 @@
 provider "null" {}
 
 variable "INTERNAL_SECRET" {
-  default = "MRDIuSYR6wqg0ha9"
+  default = ""
 }
 
 variable "OIDC_CLIENT_PWD" {
-  default = "g3ize7GxYFPT"
+  default = ""
 }
 
 resource "null_resource" "run_docker_container" {
